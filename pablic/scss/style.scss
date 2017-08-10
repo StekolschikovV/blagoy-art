@@ -1,0 +1,25 @@
+@font-face {
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('PT Sans'), local('PTSans-Regular'),
+  url(../fonts/PTSans/PTS.woff) format('woff'),
+  url(../fonts/PTSans/PTS.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'MyriadPro';
+  font-style: normal;
+  font-weight: 400;
+  src: local('MyriadPro'), local('MyriadPro-Regular'),
+  url(../fonts/MyriadPro.otf) format('otf')
+}
+@import "base/_reset";
+@import "base/_fonts";
+//@import "components/_jquery.formstyler";
+//@import "components/_fancybox";
+@import "components/_slick";
+//@import "components/_mCustomScrollbar";
+@import "layout/_header";
+@import "layout/_footer";
+@import "layout/_content";
+@import "layout/_media";
